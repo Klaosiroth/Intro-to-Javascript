@@ -1,4 +1,143 @@
-Directions:
+Directions: First Expression
+Write an expression that uses at least 3 different arithmetic operators.
+
+The expression should equal 42.
+
+Hint: +, -, *, /, and % are possible arithmetic operators
+
+Your Code:
+/*
+ * Programming Quiz: First Expression (2-1)
+ *
+ * Write an expression that uses at least three, different, arithmetic operators
+ * to log the number 42 to the console.
+ */
+
+// this expression equals 4, change it to equal 42
+console.log(10 * 2 + 23 - 1);
+console.log(1 + 5 - 2 + 38);
+console.log(80/2 +10 -8);
+console.log(2%4 +40);
+
+
+Directions: Converting Tempatures
+Use this equation and the variables fahrenheit and celsius to print the Fahrenheit equivalent of 12°C.
+
+NOTE: "12°C" reads as "12 degrees Celsius".
+
+Your Code:
+/*
+ * Programming Quiz: Converting Tempatures (2-2)
+ *
+ * The Celsius-to-Fahrenheit formula:
+ *
+ *    F = C x 1.8 + 32
+ *
+ * 1. Set the fahrenheit variable to the correct value using the celsius variable and the forumla above
+ * 2. Log the fahrenheit variable to the console
+ *
+ */
+
+var celsius = 12;
+var fahrenheit = celsius * 1.8 + 32/* convert celsius to fahrenheit here */
+
+console.log(fahrenheit);/* print out result here */
+
+
+Directions: Favorite Food
+Create a string with the name of your favorite food. The first letter of the string should be capitalized.
+
+Your Code:
+/*
+ * Programming Quiz: Favorite Food (2-3)
+ */
+var favoriteFood = "Steak"
+console.log(favoriteFood);/* replace this comment with your string */
+
+
+Directions: String Equality for All
+Fix the right side expression so it evaluates to true.
+
+"ALL Strings are CrEaTeD equal" == "All STRINGS are CrEaTED Equal"
+Your Code:
+/*
+ * Programming Quiz: String Equality for All (2-4)
+ */
+
+// fix the right side of the expression
+var answer = "ALL Strings are CrEaTeD equal" == "ALL Strings are CrEaTeD equal";
+console.log(answer);
+
+
+Directions: All Tied Up
+Build a single string that resembles the following joke.
+
+Why couldn't the shoes go out and play?
+They were all "tied" up!
+Your joke should take the format of a question and answer. The first line should be a question and the second line should be an answer.
+
+Hint: You will need to use special characters to produce the following output.
+
+Your Code:
+/*
+ * Programming Quiz: All Tied Up (2-5)
+ */
+ 
+var question = "Why couldn't the shoes go out and play?";
+var answer = "They were all \"tied\" up!";
+var joke = "Why couldn't the shoes go out and play?\n\They were all \"tied\" up!";
+console.log(joke);
+
+
+Directions: Yosa Buson 
+Build a string using concatenation by combining the lines from this famous haiku poem by Yosa Buson.
+
+Blowing from the west
+Fallen leaves gather
+In the east.
+Each string should be printed on its own line.
+
+Hint: You will need to use special characters to produce the following output. For a refresher, feel free to review the previous Escaping Strings lesson in this course.
+
+Your Code:
+/*
+ * Programming Quiz: Yosa Buson (2-6)
+ */
+
+var haiku = "Blowing from the west\n" + "Fallen leaves gather\n" + "In the east.";
+console.log(haiku);
+
+
+Directions: Semicolons!
+Define two variables called thingOne and thingTwo and assign them values. Print the values of both variables in one console.log statement using concatenation. For example,
+
+red blue
+where "red" is the value of thingOne and "blue" is the value of thingTwo. Don't forget to use semicolons!
+
+Your Code:
+/*
+ * Programming Quiz: Semicolons! (2-8)
+ */
+
+// your code goes here
+var thingOne = "red"; var thingTwo = "blue";
+console.log(thingOne + thingTwo);
+
+
+Directions: What's my name?
+Create a variable called fullName and assign it your full name as a string.
+
+Your Code:
+/*
+ * Programming Quiz: What's my Name? (2-9)
+ */
+
+// your code goes here
+var fullName = "Klaosiroth"
+console.log(fullName)
+
+
+Directions: Out to Diner
 Create a variable called bill and assign it the result of 10.25 + 3.99 + 7.15 (don't perform the calculation yourself, let JavaScript do it!). Next, create a variable called tip and assign it the result of multiplying bill by a 15% tip rate. Finally, add the bill and tip together and store it into a variable called total.
 
 Print the total to the JavaScript console.
@@ -19,7 +158,7 @@ var total= tip + bill;
 console.log("$" + total.toFixed(2));
 
 
-Directions:
+Directions: Mad Libs
 Mad Libs is a word game where players have fun substituting words for blanks in a story. For this exercise, use the adjective variables below to fill in the blanks and complete the following message.
 
 "The Intro to JavaScript course is __________. James and Julia are so __________. I cannot wait to work through the rest of this __________ content!"
@@ -45,7 +184,8 @@ var madLib = "The Intro to JavaScript course is " + adjective1 + ". James and Ju
 // your code goes here
 console.log(madLib)
 
-Directions:
+
+Directions: One Awesome Message
 Here are two awesome messages:
 
 Hi, my name is Julia. I love cats. In my spare time, I like to play video games.
