@@ -10,4 +10,4 @@ JavaScript สำหรับผู้เริ่มต้น! ประกอ�
 * Objects
 
 # License
-This course is licenced under  © 2011–2017 Udacity, Inc. 
+This course is licenced under  ©Udacity, Inc. 
